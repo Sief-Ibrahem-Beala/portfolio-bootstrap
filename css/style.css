@@ -1,0 +1,181 @@
+ body {
+  background-color: #ffffff;
+  color: #fff;
+  font-family:sans-serif;
+  height: auto;
+  width: auto;
+
+  }
+  .navbar-brand{
+    font-family: 'Font Awesome 6 Free';
+    padding-right: 20px;
+  }
+
+
+
+  .title{
+    font-family: fantasy;
+  }
+
+.profile-container {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px !important;
+    overflow: hidden;
+    }
+
+  .profile-photo {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+  .profile-info {
+      margin-top: 50px !important;
+      top: 55px;
+   }
+  .btn-custom {
+      margin: 5px;
+    }
+    .btn-primary:hover{
+        color: #007bff !important;
+        background-color: #fff  !important;
+        border-color: #007bff !important;
+
+    }
+  .btn-outline-success {
+        
+        color: #b531cb !important;
+        border-color: #b531cb !important;
+    }
+    .btn-outline-success:hover {
+        color: #fff !important;
+        background-color: #a82adf !important;
+        border-color: #ffffff !important;
+    }
+    .btn-secondary{
+        background-color: #fff !important;
+        color: #b531cb !important;
+        border-color: #b531cb !important;
+    }
+    .btn-secondary:hover {
+        color: #fff !important;
+        background-color: #a82adf !important;
+        border-color: #ffffff !important;
+    }
+    
+    .col-md-6 {
+        margin-top: 10px;
+    }
+
+
+    .header {
+        text-align: center;
+        padding: 50px 0;
+    }
+    .btn-primary2{
+        background-color: #b531cb !important;
+        color: #fff !important;
+        border-color: #b531cb !important;
+        margin-bottom: 2rem;
+
+    }
+    .skill{
+        margin: 0px !important;
+        padding: 0px !important;
+        size: 30px !important;
+    }
+    .skills-section {
+
+        text-align: center;
+        padding: 50px 0;
+    }
+    .skills-section .skill {
+        display: inline-block;
+        margin: 10px;
+    }
+    .footer {
+        background-color: #343a40;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+       .row1 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .col-md-4.skill{
+            margin: 20px;
+            border: solid black 1px;
+            border-radius: 2rem;
+            max-width: fit-content;
+            padding: 5px !important;
+        }
+
+    .icons1{
+         display: flex;
+         flex-direction: column;
+    }
+    .btnvs{
+        color: #0091ff !important;
+        border: solid #0091ff 1px !important;
+        border-radius: 8px;
+        background-color: #fff !important;
+    }
+    .btnvs:hover{
+        color: #fff !important;
+        border: solid #fff 1px !important;
+        border-radius: 8px;
+        background-color: #0091ff !important;
+    }
+    .btnhtml{
+        color: #ff6600 !important;
+        border: solid #ff6600 1px !important;
+        border-radius: 8px;
+        background-color: #fff !important;
+    }
+    .btnhtml:hover{
+        color: #fff !important;
+        border: solid #fff 1px !important;
+        border-radius: 8px;
+        background-color: #ff6600 !important;
+    }    .btncss{
+        color: #3c9ae2 !important;
+        border: solid #3c9ae2 1px !important;
+        border-radius: 8px;
+        background-color: #fff !important;
+    }
+    .btncss:hover{
+        color: #fff !important;
+        border: solid #fff 1px !important;
+        border-radius: 8px;
+        background-color: #3c9ae2 !important;
+    }    .btnboot{
+        color: #3b0581 !important;
+        border: solid #3b0581 1px !important;
+        border-radius: 8px;
+        background-color: #fff !important;
+    }
+    .btnboot:hover{
+        color: #fff !important;
+        border: solid #fff 1px !important;
+        border-radius: 8px;
+        background-color: #3b0581 !important;
+    }    .btnjs{
+        color: #FFD43B !important;
+        border: solid #FFD43B 1px !important;
+        border-radius: 8px;
+        background-color: #fff !important;
+    }
+    .btnjs:hover{
+        color: #fff !important;
+        border: solid #fff 1px !important;
+        border-radius: 8px;
+        background-color: #FFD43B !important;
+    }
+    .col-md-4.skill:hover{
+        background-color: #343a40;
+        color: #fff;
+    }
