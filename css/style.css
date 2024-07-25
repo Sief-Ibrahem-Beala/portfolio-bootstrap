@@ -15,11 +15,46 @@
 
   .title{
     font-family: fantasy;
+    color: #b531cb;
+    margin-bottom: 20px;
+    transition: 1s ease-in-out;
+  }
+ .title:hover{
+    color: #0091ff;
+    touch-action: cross-slide-x;
+    padding-left: 10px;
+  }
+  .infotitle{
+    font-family: fantasy;
+    color: #b531cb;
+    margin-bottom: 20px;
+    transition: 1s ease-in-out;
+  }
+  .infotitle:hover{
+    color: #fff;
+    padding-left: 10px;
+  }
+
+  .myinfo{
+    color: #0091ff !important;
+  }
+
+  .txt{
+    margin-bottom: 50px;
+    font-family: fantasy;
+    transition: 1s ease-in-out;
+  }
+  .txt:hover{
+    color: #b531cb;
+    padding: 10px;
+    font-family: fantasy;
   }
 
 .profile-container {
+    box-shadow: 5px 5px 5px 5px lightslategrey;
     font-family: sans-serif;
-    background-color: #ffffff;
+    background-color: #343a40;
+    color: #fff;
     border-radius: 5px;
     margin: 10px !important;
     overflow: hidden;
@@ -31,8 +66,7 @@
       border-radius: 5px;
     }
   .profile-info {
-      margin-top: 50px !important;
-      top: 55px;
+      margin-top: 100px !important;
    }
   .btn-custom {
       margin: 5px;
